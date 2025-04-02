@@ -2858,11 +2858,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/alexandre/Documentos/DEV/Pessoal/WebApp/MinimalApp/MinimalApp.csproj",
+      "projectUniqueName": "/home/alexandre/Documentos/DEV/Pessoal/Minimal-CRUD/MinimalApp/MinimalApp.csproj",
       "projectName": "MinimalApp",
-      "projectPath": "/home/alexandre/Documentos/DEV/Pessoal/WebApp/MinimalApp/MinimalApp.csproj",
+      "projectPath": "/home/alexandre/Documentos/DEV/Pessoal/Minimal-CRUD/MinimalApp/MinimalApp.csproj",
       "packagesPath": "/home/alexandre/.nuget/packages/",
-      "outputPath": "/home/alexandre/Documentos/DEV/Pessoal/WebApp/MinimalApp/obj/",
+      "outputPath": "/home/alexandre/Documentos/DEV/Pessoal/Minimal-CRUD/MinimalApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/alexandre/.nuget/NuGet/NuGet.Config"

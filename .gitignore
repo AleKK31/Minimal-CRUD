@@ -1,0 +1,68 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Logs
+*.log
+*.tlog
+*.vspscc
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Packages
+*.nupkg
+*.snupkg
+packages/
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Generated files
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.cache
+*.ilk
+*.log
+*.csproj.user
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+
+# Publish output
+publish/
+wwwroot/
+
+# Temporary files
+*.tmp
+*.temp
+*.pid
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
+*.gz
+*.zip
+*.tar
+*.rar
+*.7z
+*.tgz
+*.xz
+*.bz2
+
+# IDE-specific
+.vs/

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CIosZNZ7P9M=",
+  "dgSpecHash": "977tFBQI3TA=",
   "success": true,
-  "projectFilePath": "/home/alexandre/Documentos/DEV/Pessoal/WebApp/MinimalApp/MinimalApp.csproj",
+  "projectFilePath": "/home/alexandre/Documentos/DEV/Pessoal/Minimal-CRUD/MinimalApp/MinimalApp.csproj",
   "expectedPackageFiles": [
     "/home/alexandre/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/alexandre/.nuget/packages/microsoft.aspnetcore.openapi/8.0.11/microsoft.aspnetcore.openapi.8.0.11.nupkg.sha512",
