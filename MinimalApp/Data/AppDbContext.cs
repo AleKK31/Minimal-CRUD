@@ -1,11 +1,14 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using MinimalApp.Models;
+using MinimalApp.Models.Admin;
+using MinimalApp.Models.Person;
 
 namespace MinimalApp.Data;
 
 public class AppDbContext : DbContext
 {
     public DbSet<AdminModel> Admins { get; set; }
+    public DbSet<PersonModel> Persons { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

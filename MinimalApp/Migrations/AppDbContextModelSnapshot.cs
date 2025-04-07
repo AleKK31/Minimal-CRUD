@@ -17,7 +17,7 @@ namespace MinimalApp.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.14");
 
-            modelBuilder.Entity("MinimalApp.Models.AdminModel", b =>
+            modelBuilder.Entity("MinimalApp.Models.Admin.AdminModel", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -38,6 +38,44 @@ namespace MinimalApp.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Admins");
+                });
+
+            modelBuilder.Entity("MinimalApp.Models.Person.PersonModel", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("DateOfBirth")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("DocumentNumber")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Persons");
                 });
 #pragma warning restore 612, 618
         }
