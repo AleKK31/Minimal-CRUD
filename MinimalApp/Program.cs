@@ -19,6 +19,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.AdminRoutes();
+app.PersonRoutes();
 
 app.UseHttpsRedirection();
 app.Run();

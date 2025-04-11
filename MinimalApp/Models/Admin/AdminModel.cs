@@ -1,4 +1,4 @@
-namespace MinimalApp.Models;
+namespace MinimalApp.Models.Admin;
 
 public class AdminModel
 {
